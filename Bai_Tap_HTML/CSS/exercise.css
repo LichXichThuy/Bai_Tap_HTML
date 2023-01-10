@@ -1,0 +1,143 @@
+.logo{
+    width: 250px;
+}
+.clear{
+    clear: both;
+}
+#navbar{
+    background-color: black;
+}
+#navbar ul{
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    margin: 0;
+}
+#navbar ul li{
+    display: inline;
+    margin: 0px 20px;
+}
+#navbar ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: red;
+}
+#carousel{
+    height: 450px;
+    margin-top: 10px;
+    background-image: url(/img/slider_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+}
+.intro-text{
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 40px;
+    text-align: justify;
+}
+.intro-text-red{
+    color: red;
+}
+.intro-product-left,.intro-product-right{
+    float: left;
+    width: 50%;
+}
+.intro-product-item{
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.intro-product-item-1{
+    width: 50%;
+}
+.intro-product-item-2{
+    width: 100%;
+}
+.intro-product-item img{
+    width: 100%;
+    display: block;
+}
+#product  h1{
+    text-align: center;
+    color: red;
+}
+.product-item{
+    width: 25%;
+    padding: 0 10px;
+    float: left;
+    box-sizing:border-box;
+}
+.item-img{
+    width: 100%;
+    display: block;
+}
+.item-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.item-content{
+    font-size: 18px;
+    color: black;
+}
+.item-btn{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+#banner{
+    height: 400px;
+    background-image: url(/img/nature.jpg);
+    background-size: cover;
+    position: relative;
+}
+#banner .saleoff{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.saleoff p:nth-child(2){
+    font-size: 50px;
+    margin: 10px 0;
+}
+.saleoff h2, .saleoff p{
+    color: white;
+    text-align: center;
+}
+.saleoff h2{
+    margin-top: 70px;
+}
+#service{
+    width: 60px;
+    margin: 20px auto;
+}
+.service-item{
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+}
+.service-item img{
+    font-size: 40px;
+    color: black;
+}
+.footer{
+    text-align: center;
+    background-color: #02010ee6;
+    color: white;
+    line-height: 10px;
+    padding: 3px;
+}
